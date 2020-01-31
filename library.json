@@ -1,0 +1,34 @@
+{
+  "name": "SMU-Types",
+  "keywords": "arduino, util, tools",
+  "description": "Some Global Types for the Universal-I2C-Sensor-Master-Unit.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/teamonestone/SMU-Types.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Jonas Merkle [JJM]",
+      "email": "jonas.merkle@tam-onestone.net",
+	    "url": "https://jjm.one"
+    },
+    {
+      "name": "Dominik Authaler",
+      "email": "dominik.authaler@tam-onestone.net"
+    },
+    {
+      "name": "Team Onestone",
+      "email": "info@team-onestone.net",
+      "url": "https://team-onestone.net",
+      "maintainer": true
+    }
+  ],
+  "dependencies":
+  {
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
