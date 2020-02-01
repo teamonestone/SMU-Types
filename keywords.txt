@@ -6,6 +6,12 @@
 # Datatypes (KEYWORD1)
 #######################################
 
+smu_types	KEYWORD1
+SensorType	KEYWORD1
+codes	KEYWORD1
+Status	KEYWORD1
+Error	KEYWORD1
+
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
