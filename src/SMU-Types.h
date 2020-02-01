@@ -35,7 +35,7 @@ namespace smu_types {
     /**
      * @enum SensorType
      * 
-     * @brief Enum of all supportet sensor model names.
+     * @brief Enum of all supported sensor model names.
      */
     enum SensorType : uint8_t {
         NONE, 
@@ -56,7 +56,7 @@ namespace smu_types {
         /**
          * @enum StatusCode
          * 
-         * @brief Enum of all supportet sensor model names.
+         * @brief Enum of all supported status codes.
          * 
          * Codes <  1000 -> Major status code.
          * Codes >= 1000 -> Fine software information.
@@ -98,7 +98,7 @@ namespace smu_types {
         /**
          * @enum ErrorCode
          * 
-         * @brief Enum of all supportet sensor model names.
+         * @brief Enum of all supported error codes.
          * 
          * Codes < 0 -> Error
          * Codes > 0 -> Warning
@@ -120,7 +120,7 @@ namespace smu_types {
             WARN_SensorReadingVL6180X = 253,
             WARN_SensorReadingSRF08 = 254,
 
-            WARN_ComCouldNotReadIncommingMsg = 1000,
+            WARN_ComCouldNotReadIncomingMsg = 1000,
 
 
             // errors
@@ -129,9 +129,9 @@ namespace smu_types {
 
             ERR_OmeError = -100,
             ERR_OmeInvalidObjSize = -101,
-            ERR_OmeNoMemorSliceInWishedSizeAvaliable = -102,
+            ERR_OmeNoMemorySliceInWishedSizeAvaliable = -102,
             ERR_OmeMaxNumberOfObjInPoolReached = -103,
-            ERR_OmePoolObjeOutOfRange = -104,
+            ERR_OmePoolObjectOutOfRange = -104,
             ERR_OmeObjPtrOutOfRange = -105,
             ERR_OmeObjPtrIsNotPointingToTheFirstElementOfTheMemorySlice = -106,
 
